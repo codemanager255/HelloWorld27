@@ -16,6 +16,7 @@
 		045BF8E1290A951A00146C46 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BF8E0290A951A00146C46 /* HelloWorldTests.swift */; };
 		045BF8EB290A951A00146C46 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BF8EA290A951A00146C46 /* HelloWorldUITests.swift */; };
 		045BF8ED290A951A00146C46 /* HelloWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BF8EC290A951A00146C46 /* HelloWorldUITestsLaunchTests.swift */; };
+		04A120CF290BCA3600A5B031 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A120CE290BCA3600A5B031 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		045BF8E6290A951A00146C46 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045BF8EA290A951A00146C46 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		045BF8EC290A951A00146C46 /* HelloWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A120CE290BCA3600A5B031 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				045BF8C9290A951700146C46 /* AppDelegate.swift */,
 				045BF8CB290A951700146C46 /* SceneDelegate.swift */,
 				045BF8CD290A951700146C46 /* ViewController.swift */,
+				04A120CE290BCA3600A5B031 /* LoginViewController.swift */,
 				045BF8CF290A951700146C46 /* Main.storyboard */,
 				045BF8D2290A951900146C46 /* Assets.xcassets */,
 				045BF8D4290A951900146C46 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A120CF290BCA3600A5B031 /* LoginViewController.swift in Sources */,
 				045BF8CE290A951700146C46 /* ViewController.swift in Sources */,
 				045BF8CA290A951700146C46 /* AppDelegate.swift in Sources */,
 				045BF8CC290A951700146C46 /* SceneDelegate.swift in Sources */,

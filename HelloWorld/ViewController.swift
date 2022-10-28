@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var welcomeLable: UILabel!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func loginButtonTapped(_ sender: Any) {
+        
+        welcomeLable.text = "Welcome to iOS learning"
+        
+    }
 }
 
